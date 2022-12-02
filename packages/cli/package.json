@@ -6,7 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "files":[
+  "files": [
     "dist"
   ],
   "scripts": {
@@ -21,10 +21,10 @@
     "@jsnote-emi/local-client": "^1.0.0"
   },
   "devDependencies": {
+    "@jsnote-emi/local-api": "^1.0.0",
     "@types/node": "^18.11.9",
-    "esbuild": "0.8.26",
-    "typescript": "^4.9.3",
     "commander": "^9.4.1",
-    "@jsnote-emi/local-api": "^1.0.0"
+    "esbuild": "0.8.26",
+    "typescript": "^4.9.3"
   }
 }
